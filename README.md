@@ -1,7 +1,9 @@
-Webpack Config File in TypeScript Demo
+TypeScript "webpack-node-externals" Demo
 ======================================
 
-Use typescript to write webpack config file.
+使用webpack把typescript打包为可运行于node下的代码，可使用`webpack-node-externals`将node相关的module声明为`externals`。
+
+注意：webpack.config.ts中，`target`需要为`node`
 
 ```
 npm install

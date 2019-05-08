@@ -1,3 +1,6 @@
-require('./index.css')
+import fs from 'fs';
 
-document.write('The body should have a yellow background color now')
+console.log('------ print README.md ----------');
+
+const content = fs.readFileSync('./README.md', 'utf-8')
+console.log(content);
