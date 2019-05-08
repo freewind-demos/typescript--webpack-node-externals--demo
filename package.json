@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "demo": "webpack --config-register ts-node/register && node dist/bundle.js"
+    "demo": "webpack && node dist/bundle.js"
   },
   "devDependencies": {
     "@types/node": "8.0.29",
